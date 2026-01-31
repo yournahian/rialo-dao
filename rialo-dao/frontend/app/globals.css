@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+:root {
+  /* We define these just in case, but we will override them in React */
+  --fringe-bg: #e8e3d5;
+  --fringe-black: #010101;
+  --fringe-mint: #a9ddd3;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  /* Removed background-color here so React controls it */
+}
